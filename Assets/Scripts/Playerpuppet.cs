@@ -95,6 +95,7 @@ public class Playerpuppet : MonoBehaviour
             Physics2D.gravity = new Vector2(0, 9.8f); // Reverse gravity
                                                       //transform.Rotate(0f, 180f, 0f);
             spriterenderer.flipY = true;
+        }
 
         }
         else
