@@ -76,7 +76,6 @@ public class Playerpuppet : MonoBehaviour
         Gizmos.color = Color.red;
         Gizmos.DrawCube(transform.position - transform.up * maxDistance, boxSize);
     }
-
     bool GroundCheck()
     {
         if (Physics2D.BoxCast(transform.position, boxSize, 0, -transform.up, maxDistance, layerMask))
